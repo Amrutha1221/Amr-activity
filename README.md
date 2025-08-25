@@ -2,6 +2,7 @@
 activity 1
 part 1
 man ls -
+---
 
 1. ls -a
 
@@ -313,8 +314,97 @@ $ ls -z
 file1.txt<NULL>file2.c<NULL>
 
 Remarks: Safer for scripts when parsing filenames.
-   
 
+
+
+   
+Activity 1
+part 2
+---
+
+1. Command: whoami
+
+Description: Prints the current logged-in username.
+Output:
+
+$ whoami
+student
+
+Remarks: Useful to confirm which user is running the session.
+
+
+---
+
+2. Command: pwd
+
+Description: Prints the present working directory.
+Output:
+
+$ pwd
+/home/student
+
+Remarks: Helpful when navigating directories to know your current location.
+
+
+---
+
+3. Command: cd
+
+Description: Changes the current directory. Without arguments, it goes to the home directory.
+Output:
+
+$ cd
+$ pwd
+/home/student
+
+Remarks: Quick way to return to home directory.
+
+
+---
+
+4. Command: cd /
+
+Description: Changes directory to the root directory.
+Output:
+
+$ cd /
+$ pwd
+/
+
+Remarks: Brings you to the top-level directory of the Linux system.
+
+
+---
+
+5. Command: cd ..
+
+Description: Moves one directory up (parent directory).
+Output:
+
+$ pwd
+/home/student/Documents
+$ cd ..
+$ pwd
+/home/student
+
+Remarks: Handy to backtrack up the folder tree.
+
+
+---
+
+6. Command: cd <path>
+
+Description: Changes directory to the specified path.
+Output:
+
+$ cd /var/log
+$ pwd
+/var/log
+
+Remarks: Lets you directly jump into any directory if you know the path.
+
+
+---
 
 
 
