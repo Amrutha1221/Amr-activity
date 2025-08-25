@@ -3,7 +3,7 @@ activity 1
 part 1
 man ls -
 
-1] ls -a
+1. ls -a
 
 Description:Lists all files including hidden files(those starting with.).
 Output:
@@ -17,7 +17,7 @@ Remark:Useful to see hidden files like .gitignore or config files.
 
 ---
 
-2] ls -b
+2. ls -b
 
 Description:Prints non-printable characters in file names as escape sequences(/xxx).
 Output:
@@ -30,7 +30,7 @@ Remark:Helpful if filename have spaces/newlines or special chars.
 
 ---
 
-3] ls -c
+3. ls -c
 
 Descripton:Sorts files by last modification time,or with -l shows ctime.
 Output:
@@ -46,7 +46,7 @@ Remark:Useful for checking which files were most recently changed.
 
 ---
 
-4] ls -d
+4. ls -d
 
 Description:Displays directories themselves,not their contents.
 Output:
@@ -59,7 +59,7 @@ Remark:Helps when you only want directory names,not the files inside.
 
 ---
 
-5] ls -e
+5. ls -e
 
 Decription:Shows extended attributes of files(not supported everywhere).
 Output:
@@ -73,7 +73,7 @@ Remark:Shows extra metadata like ACLs.
 
 ---
 
-6] ls -f
+6. ls -f
 
 Description:Lists all files without sorting(implies -a).
 Output:
@@ -86,7 +86,7 @@ Remark:Fast for scripting since it skips sorting.
 
 ---
 
-7] ls -g
+7. ls -g
 
 Description:Like -l but hides owner information.
 Output:
@@ -299,7 +299,7 @@ Remarks: Compact view.
 
 23. Command: ls -y
 
-Description: ⚠ Not standard on all systems (often ignored).
+Description: Not standard on all systems (often ignored).
 
 
 ---
